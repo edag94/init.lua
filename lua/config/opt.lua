@@ -58,3 +58,6 @@ vim.opt.scrolloff = 1
 
 -- Set highlight on search
 vim.opt.hlsearch = true
+
+-- Make the cursor skinny when in insert mode. Note this only works in graphical versions of nvim Gnvim, so in the terminal you'll never see a difference.
+vim.opt.guicursor = "n-v-c:block,i:ver10,r-cr:hor20,o:hor50"
